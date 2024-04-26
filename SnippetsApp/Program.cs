@@ -23,6 +23,7 @@ namespace SnippetsApp
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+                    //webBuilder.UseUrls(["https://*"]);
                     webBuilder.UseStartup<Startup>();
                 });
     }

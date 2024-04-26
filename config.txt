@@ -1,0 +1,5 @@
+//https://portal.azure.com/
+
+dotnet user-secrets init
+dotnet user-secrets set "AzureAd:ClientId" "f211ac5e-02a1-4cb0-955f-2c72b03158f0"
+dotnet user-secrets set "AzureAd:ClientSecret" ""
